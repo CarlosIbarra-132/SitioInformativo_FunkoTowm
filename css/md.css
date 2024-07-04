@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Funko";
+    src: url(../font/badaboom_bb/BADABB__.TTF);
+}
+@font-face {
+    font-family: "Comic";
+    src: url(../font/hey_comic/Hey\ Comic.ttf);
+}
+
+@media screen and (min-width: 768px){
+
+        html{
+            font-size: 16px;
+        }
+        a{
+            font-size: 2.5rem;
+    
+        }
+        h1{
+            font-size: 2.5rem;
+        }
+        h2{
+            font-size: 2.5rem;
+        }
+        h3{
+            font-size: 2.5rem;
+        }
+        h4{
+            font-size: 2.5rem;
+        }
+        h5{
+            font-size: 1.5rem;
+        }
+        h6{
+            font-size: 2.5rem;
+        }
+
+        #imgc{
+            width: 45%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            margin-top: 1.5%;
+            margin-bottom: 2%;
+        }
+        .img4{
+            width: 95%;
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+            height: 70%;
+        }
+        .productos{
+            width: 50%;
+            display: inline-block;
+        }
+    
+}

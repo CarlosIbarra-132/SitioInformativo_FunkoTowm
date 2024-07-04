@@ -4,108 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FunkoTown</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="ayuda.html">
-    <link rel="stylesheet" href="colecciones.html">
-    <link rel="stylesheet" href="productos.html">
-    <link rel="stylesheet" href="redes.html">
+    <link rel="stylesheet" href="css/md.css">
+    <link rel="stylesheet" href="css/lg.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header id="inicio" class="fondo">
         <img src="img/portada.jpg" alt="">
+        <section class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top py-0">
+        <nav class="container">
+            <a class="navbar-brand" href="#">
+                <img id="logotipo" class="logo1" src="img/logo.png" alt="Logo">
+                <span class="d-none d-lg-inline">FunkoTown</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                    <a class="nav-link" href="#productos">Productos</a>
+                    <a class="nav-link" href="#colecciones">Colecciones</a>
+                    <a class="nav-link" href="#ayuda">Ayuda</a>
+                    <a class="nav-link" href="#redes">Redes</a>
+                </div>
+            </div>
+        </nav>
+        </section>
     </header>
-    <nav>
-        <a href="#inicio">Inició</a>
-        <a href="">Colecciones</a>
-        <a href="">Productos</a>
-        <a href="">Ayuda</a>
-        <a href="">Redes Sociales</a>
-    </nav>
-    <section class="informacion">
-        <h1>¿Quiénes Somos?</h1>
-        <img class="imgsn" src="img/Captura de pantalla 2024-06-22 202006.png" alt="">
-        <p class="sobre">
+    <section class="row">
+        
+        <section class="informacion responsivo ">
+            <h1 class="quienes responsivo">¿Quienes Somos?</h1>
+            <img id="imgsn" class="imgsn" src="img/Sobre2.jpg" alt="">
+        <p class="sobre responsivo">
             Somos un pequeño negocio apasionado por los Funko Pops. Nuestra misión es traerte las figuras coleccionables más geniales y exclusivas para que puedas expresar tu amor por tus personajes favoritos.
         </p>
     </section>
-    <section class="pq">
-        <h2>¿Por qué elegirnos?</h2>
+    <section class="pq responsivo ">
+        <h2 class="responsivo pqe">¿Por que elegirnos?</h2>
         <ul>
-            <li>Variedad: Tenemos una amplia selección de Funko Pops</li>
-            <li>Atención personalizada: Como negocio pequeño, nos preocupamos por cada cliente.</li>
-            <li>Precios asequibles: Creemos que todos deberían poder disfrutar de los Funko Pops sin gastar una fortuna.</li>
-       </ul>
+             
+             
+            
+            <span>
+                Variedad:
+            </span>
+            Tenemos una amplia selección de Funko Pops
+            <br/>
+            <span>
+                Atención personalizada:
+            </span>
+            Como negocio pequeño, nos preocupamos por cada cliente.
+            <br/>
+            <span>
+                Precios asequibles:           
+            </span>
+            Creemos que todos deberían poder disfrutar de los Funko Pops sin gastar una fortuna.
+        </ul>
     </section>
-    <section id="productos">
-        <h3>Productos</h3>
-        <section class="productos">
-            <h4>Browser</h4>
-            <img class="img4" src="img/Browser.jpg" alt="">
-        </section>
-
-        <section class="productos">
-            <h4>Mario</h4>
-            <img class="img4" src="img/Mario.jpg" alt="">
-        </section>
-
-        <section class="productos">
-            <h4>Wall-e</h4>
-            <img class="img4" src="img/Walle.jpg" alt="">
-        </section>
-
-        <section class="productos">
-            <h4>Mirabel</h4>
+    <section id="productos" class="responsivo ">
+        <h3 class="responsivo responsivoll">Productos</h3>
+        <section class="productos responsivo producto1">
+            <h4 class="responsivo ">Mirabel</h4>
             <img class="img4" src="img/Mirabel.jpg" alt="">
         </section>
 
-        <section class="productos">
-            <h4>Naruto</h4>
+        <section class="productos responsivo producto2">
+            <h4 class="responsivo">Naruto</h4>
             <img class="img4" src="img/Naruto.jpg" alt="">           
         </section>
-        <section class="productos">
-            <h4>Ferrari</h4>
-            <img class="img4" src="img/Ferrari.jpg" alt="">            
+        
+        <section class="productos responsivo producto3">
+            <h4 class="responsivo">Bowser</h4>
+            <img class="img4" src="img/Browser.jpg" alt="">
         </section>
+        <section class="productos responsivo producto4">
+            <h4 class="responsivo">DragonBall Super</h4>
+            <img class="img4" src="img/dbz1.jpg" alt="">            
+        </section>
+
+        <section class="productos responsivo producto5">
+            <h4 class="responsivo">chainsaw man</h4>
+            <img class="img4" src="img/ch1.jpg" alt="">
+        </section>
+
+        <section class="productos responsivo producto6">
+            <h4 class="responsivo">DragonBall Super</h4>
+            <img class="img4" src="img/dbz2.jpg" alt="">
+        </section>
+
+       
     </section>
-    <section id="colecciones">
-        <h6>Colecciones</h6>
+    <section id="colecciones" class="responsivo ">
+        <h6 class="responsivo">Colecciones</h6>
 
-        <section class="colecciones">
-            <h5>Tortugas Ninja</h5>
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
+        <section class="colecciones responsivo ">
+            <h5 class="responsivo ">Deadpool</h5>
+            <img id="imgc" class="img5" src="img/d1.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/d2.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/d3.jpg" alt="">
+            <img id="imgc" class="img5 " src="img/d4.jpg" alt="">
         </section>
 
-        <section class="colecciones">
-            <h5>Marvel</h5>
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
+        <section class="colecciones responsivo">
+            <h5 class="responsivo ">Spiderman</h5>
+            <img id="imgc" class="img5 " src="img/s1.jpg" alt="">
+            <img id="imgc" class="img5 " src="img/s2.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/s3.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/s4.jpg" alt="">
         </section>
 
-        <section class="colecciones">
-            <h5>DC</h5>
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
+        <section class="colecciones responsivo">
+            <h5 class="responsivo">Batman</h5>
+            <img id="imgc" class="img5" src="img/b1.jpg" alt="">
+            <img id="imgc" class="img5" src="img/b2.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/b3.jpg" alt="">
+            <img id="imgc" class="img5 img51" src="img/b4.jpg" alt="">
         </section>
 
-        <section class="colecciones">
-            <h5>Caballeros Del Zodiaco</h5>
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
-            <img class="img5" src="" alt="">
+        <section class="colecciones responsivo">
+            <h5 class="responsivo">Halo</h5>
+            <img id="imgc"  class="img5 img51" src="img/h1.png" alt="">
+            <img id="imgc" class="img5" src="img/h2.png" alt="">
+            <img id="imgc" class="img5" src="img/h3.png" alt="">
+            <img id="imgc" class="img5 img51" src="img/h4.png" alt="">
         </section>
 
     </section>
-    <section id="ayuda">
-        <h3>Ayuda Y soporte</h3>
+    <section id="ayuda" class="responsivo">
+        <h3 class="responsivo">Ayuda Y soporte</h3>
         <form action="">
             <input type="text" name="nombre" placeholder="Nombre">
             <input type="email" name="correo" placeholder="Correo">
@@ -113,11 +143,17 @@
             <input type="submit" value="Enviar" class="boton">
           </form>
     </section>
-    <section id="redes">
-        <h3>Redes Sociales</h3>
-        <a class="rs" href="https://www.instagram.com/funko.towny/">N</a>
-        <a class="rs" href="https://www.facebook.com/funko.towny">A</a>
+    <section id="redes" class="responsivo">
+        <h3 class="responsivo
+        .">Redes Sociales</h3>
+        <a class="a1" href="https://www.facebook.com/funko.towny" >
+            <img src="img/icons8-facebook-nuevo-50.png" alt="">
+          </a>
+          <a class="a1" href="https://www.instagram.com/funko.towny/">
+            <img src="img/icons8-instagram-50.png" alt="">
+          </a>
     </section>
-
+</section>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

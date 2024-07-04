@@ -15,6 +15,16 @@
     font-family: "Chilanka";
     src: url(../font/Chilanka-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Funko";
+    src: url(../font/badaboom_bb/BADABB__.TTF);
+}
+@font-face {
+    font-family: "Comic";
+    src: url(../font/hey_comic/Hey\ Comic.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +32,7 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 75%;
 }
 body{
     font-size: 0px;
@@ -31,151 +41,179 @@ body{
     width: 100%;
     height: 100%;
 }
+#logotipo{
+    width: 75px;
+}
 img{
     width: 100%;
     height: 100%;
 }
-nav{
-    position: sticky;
-    width: 100%;
-    height: 80px;
-    background-color: rgba(240, 248, 255, 0.4);
-    translate: 0 -120%;
+.nav-link{
+	color: #eeff01;
+    font-size: 1rem;
 }
-a{
-    font-family:'Mochiy Pop One', cursive;
-    font-size: 2rem;
-    color: #000;
-    text-decoration: none;
-    margin-left: 40px;
-    margin-right: 35px;
+
+.nav-link:hover{
+	color: #15acdb;
+    font-size: 1rem;
 }
-    a:hover{
-        color: azure;
-    }
+
+span{
+    color: #28BAD6;
+}
+
 .informacion{
     width: 100%;
     height: 100%;
-    background-color:beige;
-    margin-top: -80px;
+    display: none;
 }
 h1{
-    font-family: Merriweather, cursive;
+    font-family: Funko, cursive;
     font-size: 3rem;
-    color: #bcdb49;
+    color: #FCE545;
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: 2px;
 }
+
 .imgsn{
     width: 45%;
     height: 80%;
     display: inline-block;
     margin-left: 20px;
 }
+
 .sobre{
-    width: 45%;
-    height: 80%;
-    display: inline-block;
-    font-family: 'Roboto Condensed', cursive;
+    width: 100%;
+    font-family: Comic, cursive;
     font-size: 1.5rem;
     color: #000;
-    margin-left: 40px;
     text-align: justify;
-    translate: 0 -100%;
+    
 }
 .pq{
     width: 100%;
     height: 100%;
-    background-color:beige;
+    background-color:#E4516A;
+    padding: 20px;
 }
 h2{
-    font-family: Merriweather, cursive;
-    font-size: 3rem;
-    color: #bcdb49;
+    font-family: Funko , cursive;
+    font-size: 2rem;
+    color: #FCE545;
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: 2px;
 }
 .elegirnos{
     width: 45%;
     height: 80%;
     display: inline-block;
-    font-family: 'Roboto Condensed', cursive;
+    font-family: Comic , cursive;
     font-size: 1.5rem;
     color: #000;
     margin-left: 40px;
     text-align: justify;
-    translate: 0 -100%;
 }
 ul{
     width: 100%;
     height: 100%;
     text-align: center;
     color: #000;
+    vertical-align: middle;
+    color: #000;
+    font-size: 1.5rem;
+    font-family: Comic, cursive;
 }
-    li{
-        color: #000;
-        font-size: 1.5rem;
-    }
+    
 #productos{
     height: 100%;
     width: 100%;
-    background-color: #3992ad;
+    background-color: #8D3C61;
     margin-top: 20px;
+    padding-bottom: 5%;
 }
+
 h3{
-    font-family: Merriweather, cursive;
+    font-family: Funko, cursive;
     font-size: 3rem;
-    color: #fff;
+    color: #FCE545;
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+
 }
     .productos{
-        width: 28%;
-        height: 40%;
-        display: inline-block;
-        margin-left: 50px;
+        width: 100%;
+        height: 100%;
     }
     h4{
-    font-family: Merriweather, cursive;
-    font-size: 2rem;
-    color: #000;
+    font-family: Funko, cursive;
+    font-size: 2.5rem;
+    color: #28BAD6;
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 10px;
+    letter-spacing: 2px;
     }
     .img4{
-        width: 350px;
-        height: 450px;
-        margin: 0 auto;
+        width: 60%;
+        height: 70%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 20px;
+    }
+    .img51{
+        display: none;
+    }
+    .producto1{
+        display: none;
+    }
+     .producto4{
+        display: none;
     }
 #colecciones{
     width: 100%;
     height: 100%;
-    background-color: rgb(14, 177, 109);
-    margin-top: 50px;
+    background-color: #8D3C61;
+    margin-top: 5%;
 }
 h6{
-    font-family: Merriweather, cursive;
-    font-size: 3rem;
-    color: #fff;
+    font-family: Funko, cursive;
+    font-size: 2.5rem;
+    color: #FCE545;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+.row{
+    padding: 1%;
 }
     .colecciones{
         width: 100%;
         height: 90%;
         display: inline-block;
     }
+    #imgc{
+        width: 60%;
+        margin: 5% 20%;
+        border-radius: 20px;
+    }
+
     h5{
-    font-family: Merriweather, cursive;
+    font-family: Funko , cursive;
     font-size: 2rem;
-    color: #000;
+    color: #28BAD6;
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: 2px;
     }
 #ayuda{
     width: 100%;
     height: 100%;
-    background-color: #c47113;
+    background-color: #8D3C61;
+    padding: 20px;
 }
 
     input{
@@ -185,10 +223,11 @@ h6{
         border: none;
         font-size: 1rem;
         color: #b35555;
+        border-radius: 20px;
     }
     input:focus{
-        color: #fff;
-        background-color: #350101;
+        color: #080707;
+        background-color: #0fefff;
         outline: 0px;
     }
     input[type="submit"]{
@@ -199,7 +238,7 @@ h6{
         font-weight: bolder;
         border-radius: 20px;
         margin-top: 25px;
-        translate: 440% -10%;
+        margin-left: 125px;
     }
     input[name="problema"]{
         height: 100px;
@@ -209,11 +248,21 @@ h6{
         color: #f3e30a;
         cursor: pointer;
     }
+    input::placeholder{
+        color: #030202;
+        font-size: 1rem;
+    }
     #redes{
         width: 100%;
-        height: 100%;
-        background-color: #383838;
+        height: 30%;
+        background-color: #7b7b7b;
     }
-    .rs{
-        font-family: Grunge, cursive;
+
+    .a1{
+      width: 10%; 
+      height: 5%;
+      display: inline-block;
+        margin-left: 20%;
+      margin-right: 20%;
     }
+    

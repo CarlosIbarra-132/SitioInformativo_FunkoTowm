@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Funko";
+    src: url(../font/badaboom_bb/BADABB__.TTF);
+}
+@font-face {
+    font-family: "Comic";
+    src: url(../font/hey_comic/Hey\ Comic.ttf);
+}
+
+@media screen and (min-width: 992px){
+    html{
+        font-size: 16px;
+    }
+    a{
+        font-size: 3rem;
+
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    h4{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    h5{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    h6{
+        font-size: 3.5rem;
+    }
+    .nav-link{
+        color: #eeff01;
+    }
+    
+    .nav-link:hover{
+        color: #15acdb;
+    }
+    #imgsn{
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align:middle;
+    margin-bottom: 60px;
+    }
+    .sobre{
+    width: 45%;
+    height: 80%;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 40px;
+    margin-top: 10px;
+    }
+    #imgc{
+        width: 20%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 1.5%;
+        margin-bottom: 4%;
+        border-radius: 20px;
+
+    }
+    .img4{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: 70%;
+        border-radius: 20px;
+    }
+
+    .productos{
+        width: 33%;
+        display: inline-block;
+    }
+    .img51{
+        display: inline-block;
+        border-radius: 20px;
+    }
+    .informacion{
+        width: 100%;
+        height: 100%;
+        background-color: #E4516A;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
